@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		076FAB9F24C8B57800920C31 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FAB9E24C8B57800920C31 /* LoginView.swift */; };
 		0780FA3124C5E92A00F05516 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0780FA3024C5E92A00F05516 /* charleyrivers.jpg */; };
 		0780FA3324C5ECB100F05516 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0780FA3224C5ECB100F05516 /* UserData.swift */; };
 		07A6504F24C33F8300A2DF65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A6504E24C33F8300A2DF65 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		076FAB9E24C8B57800920C31 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		0780FA3024C5E92A00F05516 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		0780FA3224C5ECB100F05516 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		07A6504B24C33F8300A2DF65 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		076FAB9D24C8B55800920C31 /* @State */ = {
+			isa = PBXGroup;
+			children = (
+				076FAB9E24C8B57800920C31 /* LoginView.swift */,
+			);
+			path = "@State";
+			sourceTree = "<group>";
+		};
 		07A6504224C33F8300A2DF65 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 			children = (
 				07A6504E24C33F8300A2DF65 /* AppDelegate.swift */,
 				07A6505024C33F8300A2DF65 /* SceneDelegate.swift */,
+				076FAB9D24C8B55800920C31 /* @State */,
 				07A6508624C4B67E00A2DF65 /* Section-1 */,
 				07A6508524C4B67400A2DF65 /* Section-2 */,
 				07A6508D24C4BA0800A2DF65 /* Resources */,
@@ -271,6 +282,7 @@
 				07A6508824C4B7C700A2DF65 /* LandmarkDetail.swift in Sources */,
 				07A6505124C33F8300A2DF65 /* SceneDelegate.swift in Sources */,
 				07A6506924C459BF00A2DF65 /* Tryout.swift in Sources */,
+				076FAB9F24C8B57800920C31 /* LoginView.swift in Sources */,
 				07A6508424C4B66C00A2DF65 /* LandmarkRow.swift in Sources */,
 				07A6505324C33F8300A2DF65 /* ContentView.swift in Sources */,
 			);

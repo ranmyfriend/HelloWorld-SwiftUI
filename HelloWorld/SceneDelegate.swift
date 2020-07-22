@@ -9,12 +9,46 @@
 import UIKit
 import SwiftUI
 
+
+struct Hello {
+    var fname: String
+    var lname: String
+
+    lazy var fullname: String = {
+        return fname + lname
+    }()
+
+    var fullnamee: String {
+        return fname + lname
+    }
+}
+
+class Helloo {
+    let name: String = "Ranjith"
+    lazy var age: Int = 2
+}
+
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+
+        var hello = Hello(fname: "Shilpa", lname: "Shetty")
+
+        print("Before")
+        print("hello: fullname:\(hello.fullname)")
+        print("hello: fullnamee:\(hello.fullnamee)")
+
+        hello.fname = "Ranjith"
+        hello.lname = "Kumar"
+
+        print("After")
+
+        print("hello: fullname:\(hello.fullname)")
+        print("hello: fullnamee:\(hello.fullnamee)")
+
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).

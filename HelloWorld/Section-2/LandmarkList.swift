@@ -32,14 +32,16 @@ struct LandmarkList: View {
     }
 }
 
+#if DEBUG
 struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE"], id: \.self) {
             deviceName in
-            LandmarkList()
+            LandmarkList().environmentObject(UserData())
             .previewDevice(PreviewDevice(rawValue: deviceName))
                 .colorScheme(.light)
             .previewDisplayName(deviceName)
         }
     }
 }
+#endif
