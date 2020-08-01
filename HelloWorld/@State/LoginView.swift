@@ -23,7 +23,7 @@ struct LoginView: View {
                     .padding(
                         [.leading,
                          .trailing],10)
-                    .background(Color.pink)
+                    .background(Color.gray)
                 TextField(
                     "Password",
                     text: $passwordTxt
@@ -31,22 +31,46 @@ struct LoginView: View {
                     .frame(height: 50)
                     .padding(
                         [.leading,.trailing],10)
-                    .background(Color.pink)
+                    .background(Color.gray)
                 Button(
                     action: {
                         print("Login Tapped!")
+//                        NetworkHelper.default.getAllMovies()
                 },
                     label: {
                         Text("Login")
                 }
-                ).frame(
-                    width:UIScreen.main.bounds.width-(2*16))
-                    .frame(height: 50)
-                    .background(Color.pink)
+                )
+//                    .frame(
+//                    width:UIScreen.main.bounds.width-(2*16))
+//                    .frame(height: 50)
+//                    .background(Color.pink)
             }
             .padding()
         .navigationBarTitle("Login")
         }
+    }
+}
+
+import Request
+
+class NetworkHelper {
+    static let `default` = NetworkHelper()
+    private init() {}
+    
+    func getAllMovies() {
+        Request {
+            Url("http://www.omdbapi.com/?t=Batman")
+            Header.Accept(.json)
+        }
+        .onData { data in
+            print("Response:\(data)")
+        }
+        .onError { error in
+            print("Error:\(error)")
+        }
+        .call()
+        
     }
 }
 

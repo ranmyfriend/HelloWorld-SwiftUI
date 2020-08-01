@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -36,6 +36,19 @@
 		07A650A624C4BA0800A2DF65 /* chilkoottrail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07A6509924C4BA0800A2DF65 /* chilkoottrail.jpg */; };
 		07A650A724C4BA0800A2DF65 /* rainbowlake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 07A6509A24C4BA0800A2DF65 /* rainbowlake.jpg */; };
 		07A650A924C4BCB800A2DF65 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A650A824C4BCB800A2DF65 /* LandmarkList.swift */; };
+		07D85BBF24D5980B00D59F16 /* Json in Frameworks */ = {isa = PBXBuildFile; productRef = 07D85BBE24D5980B00D59F16 /* Json */; };
+		07D85BC124D5980B00D59F16 /* Request in Frameworks */ = {isa = PBXBuildFile; productRef = 07D85BC024D5980B00D59F16 /* Request */; };
+		07D85BC324D5AE8B00D59F16 /* MoviesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D85BC224D5AE8B00D59F16 /* MoviesView.swift */; };
+		07D85BCB24D5B36400D59F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D85BCA24D5B36400D59F16 /* AppDelegate.swift */; };
+		07D85BCD24D5B36400D59F16 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D85BCC24D5B36400D59F16 /* ContentView.swift */; };
+		07D85BCF24D5B36B00D59F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D85BCE24D5B36B00D59F16 /* Assets.xcassets */; };
+		07D85BD224D5B36B00D59F16 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D85BD124D5B36B00D59F16 /* Preview Assets.xcassets */; };
+		07D85BD524D5B36B00D59F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D85BD324D5B36B00D59F16 /* LaunchScreen.storyboard */; };
+		07D85BDA24D5B39E00D59F16 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076FAB9E24C8B57800920C31 /* LoginView.swift */; };
+		07D85BDD24D5B3C200D59F16 /* Json in Frameworks */ = {isa = PBXBuildFile; productRef = 07D85BDC24D5B3C200D59F16 /* Json */; };
+		07D85BDF24D5B3C200D59F16 /* Request in Frameworks */ = {isa = PBXBuildFile; productRef = 07D85BDE24D5B3C200D59F16 /* Request */; };
+		07D85BE124D5B52900D59F16 /* NotestAboutIMDB.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07D85BE024D5B52900D59F16 /* NotestAboutIMDB.rtf */; };
+		07D85BE224D5B52900D59F16 /* NotestAboutIMDB.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07D85BE024D5B52900D59F16 /* NotestAboutIMDB.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +83,15 @@
 		07A6509924C4BA0800A2DF65 /* chilkoottrail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chilkoottrail.jpg; sourceTree = "<group>"; };
 		07A6509A24C4BA0800A2DF65 /* rainbowlake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowlake.jpg; sourceTree = "<group>"; };
 		07A650A824C4BCB800A2DF65 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		07D85BC224D5AE8B00D59F16 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
+		07D85BC824D5B36400D59F16 /* HelloWorldTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D85BCA24D5B36400D59F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07D85BCC24D5B36400D59F16 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		07D85BCE24D5B36B00D59F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07D85BD124D5B36B00D59F16 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07D85BD424D5B36B00D59F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07D85BD624D5B36B00D59F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D85BE024D5B52900D59F16 /* NotestAboutIMDB.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = NotestAboutIMDB.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +99,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07D85BC124D5980B00D59F16 /* Request in Frameworks */,
+				07D85BBF24D5980B00D59F16 /* Json in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D85BC524D5B36400D59F16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D85BDF24D5B3C200D59F16 /* Request in Frameworks */,
+				07D85BDD24D5B3C200D59F16 /* Json in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				076FAB9E24C8B57800920C31 /* LoginView.swift */,
+				07D85BC224D5AE8B00D59F16 /* MoviesView.swift */,
+				07D85BE024D5B52900D59F16 /* NotestAboutIMDB.rtf */,
 			);
 			path = "@State";
 			sourceTree = "<group>";
@@ -95,7 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				07A6504D24C33F8300A2DF65 /* HelloWorld */,
+				07D85BC924D5B36400D59F16 /* HelloWorldTV */,
 				07A6504C24C33F8300A2DF65 /* Products */,
+				07D85BDB24D5B3C200D59F16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				07A6504B24C33F8300A2DF65 /* HelloWorld.app */,
+				07D85BC824D5B36400D59F16 /* HelloWorldTV.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +222,34 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		07D85BC924D5B36400D59F16 /* HelloWorldTV */ = {
+			isa = PBXGroup;
+			children = (
+				07D85BCA24D5B36400D59F16 /* AppDelegate.swift */,
+				07D85BCC24D5B36400D59F16 /* ContentView.swift */,
+				07D85BCE24D5B36B00D59F16 /* Assets.xcassets */,
+				07D85BD324D5B36B00D59F16 /* LaunchScreen.storyboard */,
+				07D85BD624D5B36B00D59F16 /* Info.plist */,
+				07D85BD024D5B36B00D59F16 /* Preview Content */,
+			);
+			path = HelloWorldTV;
+			sourceTree = "<group>";
+		};
+		07D85BD024D5B36B00D59F16 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07D85BD124D5B36B00D59F16 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07D85BDB24D5B3C200D59F16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,8 +266,33 @@
 			dependencies = (
 			);
 			name = HelloWorld;
+			packageProductDependencies = (
+				07D85BBE24D5980B00D59F16 /* Json */,
+				07D85BC024D5980B00D59F16 /* Request */,
+			);
 			productName = HelloWorld;
 			productReference = 07A6504B24C33F8300A2DF65 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D85BC724D5B36400D59F16 /* HelloWorldTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D85BD724D5B36B00D59F16 /* Build configuration list for PBXNativeTarget "HelloWorldTV" */;
+			buildPhases = (
+				07D85BC424D5B36400D59F16 /* Sources */,
+				07D85BC524D5B36400D59F16 /* Frameworks */,
+				07D85BC624D5B36400D59F16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloWorldTV;
+			packageProductDependencies = (
+				07D85BDC24D5B3C200D59F16 /* Json */,
+				07D85BDE24D5B3C200D59F16 /* Request */,
+			);
+			productName = HelloWorldTV;
+			productReference = 07D85BC824D5B36400D59F16 /* HelloWorldTV.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -210,12 +301,15 @@
 		07A6504324C33F8300A2DF65 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = DrawRect;
 				TargetAttributes = {
 					07A6504A24C33F8300A2DF65 = {
 						CreatedOnToolsVersion = 11.5;
+					};
+					07D85BC724D5B36400D59F16 = {
+						CreatedOnToolsVersion = 11.6;
 					};
 				};
 			};
@@ -228,11 +322,15 @@
 				Base,
 			);
 			mainGroup = 07A6504224C33F8300A2DF65;
+			packageReferences = (
+				07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */,
+			);
 			productRefGroup = 07A6504C24C33F8300A2DF65 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				07A6504A24C33F8300A2DF65 /* HelloWorld */,
+				07D85BC724D5B36400D59F16 /* HelloWorldTV */,
 			);
 		};
 /* End PBXProject section */
@@ -255,10 +353,22 @@
 				07A6509D24C4BA0800A2DF65 /* icybay.jpg in Resources */,
 				07A650A024C4BA0800A2DF65 /* twinlake.jpg in Resources */,
 				07A6509E24C4BA0800A2DF65 /* lakemcdonald.jpg in Resources */,
+				07D85BE124D5B52900D59F16 /* NotestAboutIMDB.rtf in Resources */,
 				07A6509F24C4BA0800A2DF65 /* hiddenlake.jpg in Resources */,
 				07A650A124C4BA0800A2DF65 /* umbagog.jpg in Resources */,
 				07A6509B24C4BA0800A2DF65 /* turtlerock.jpg in Resources */,
 				07A650A724C4BA0800A2DF65 /* rainbowlake.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D85BC624D5B36400D59F16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D85BD524D5B36B00D59F16 /* LaunchScreen.storyboard in Resources */,
+				07D85BE224D5B52900D59F16 /* NotestAboutIMDB.rtf in Resources */,
+				07D85BD224D5B36B00D59F16 /* Preview Assets.xcassets in Resources */,
+				07D85BCF24D5B36B00D59F16 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +390,18 @@
 				07A6505124C33F8300A2DF65 /* SceneDelegate.swift in Sources */,
 				076FAB9F24C8B57800920C31 /* LoginView.swift in Sources */,
 				07A6508424C4B66C00A2DF65 /* LandmarkRow.swift in Sources */,
+				07D85BC324D5AE8B00D59F16 /* MoviesView.swift in Sources */,
 				07A6505324C33F8300A2DF65 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D85BC424D5B36400D59F16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D85BDA24D5B39E00D59F16 /* LoginView.swift in Sources */,
+				07D85BCD24D5B36400D59F16 /* ContentView.swift in Sources */,
+				07D85BCB24D5B36400D59F16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +412,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				07A6505A24C33F8900A2DF65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		07D85BD324D5B36B00D59F16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D85BD424D5B36B00D59F16 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -454,6 +583,48 @@
 			};
 			name = Release;
 		};
+		07D85BD824D5B36B00D59F16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloWorldTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drawRect.HelloWorldTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Debug;
+		};
+		07D85BD924D5B36B00D59F16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HelloWorldTV/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HelloWorldTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.drawRect.HelloWorldTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -475,7 +646,50 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		07D85BD724D5B36B00D59F16 /* Build configuration list for PBXNativeTarget "HelloWorldTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D85BD824D5B36B00D59F16 /* Debug */,
+				07D85BD924D5B36B00D59F16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/carson-katri/swift-request";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07D85BBE24D5980B00D59F16 /* Json */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Json;
+		};
+		07D85BC024D5980B00D59F16 /* Request */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Request;
+		};
+		07D85BDC24D5B3C200D59F16 /* Json */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Json;
+		};
+		07D85BDE24D5B3C200D59F16 /* Request */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 07D85BBD24D5980B00D59F16 /* XCRemoteSwiftPackageReference "swift-request" */;
+			productName = Request;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 07A6504324C33F8300A2DF65 /* Project object */;
 }
