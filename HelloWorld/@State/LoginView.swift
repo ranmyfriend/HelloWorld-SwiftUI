@@ -10,22 +10,9 @@ import SwiftUI
 
 struct LoginView: View {
 
-    @State var emailTxt: String {
-        didSet {
-            enableNDisableLoginBtn()
-        }
-    }
-    @State var passwordTxt: String {
-        didSet {
-            enableNDisableLoginBtn()
-        }
-    }
+    @State var emailTxt: String = ""
+    @State var passwordTxt: String = ""
 
-    func enableNDisableLoginBtn() {
-        if emailTxt.isEmpty || passwordTxt.isEmpty {
-
-        }
-    }
     var body: some View {
         NavigationView {
             VStack {
@@ -65,6 +52,6 @@ struct LoginView: View {
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(emailTxt: "", passwordTxt: "")
+        LoginView()
     }
 }
