@@ -8,10 +8,23 @@
 
 import SwiftUI
 
+
+/*
+ 
+ Typically we create button and will present an alert on the action, and that alert has some actions based on that it will perform based on that - old way
+ 
+ But in SwiftUI presenting an simple alert we can simply call .alert function with @State Property. which decides should show the alert or not.
+ 
+ So When we set State Property as True or false, automatically does everything. Here is the Magic.
+ 
+ 
+ */
+
 struct LoginView: View {
 
     @State var emailTxt: String = ""
     @State var passwordTxt: String = ""
+    @State private var showAlert: Bool = false
 
     var body: some View {
         NavigationView {
@@ -35,19 +48,31 @@ struct LoginView: View {
                 Button(
                     action: {
                         print("Login Tapped!")
+                        self.showAlert = true
 //                        NetworkHelper.default.getAllMovies()
+                        
+                    
                 },
                     label: {
                         Text("Login")
-                }
-                )
+                })
+                
+                    
 //                    .frame(
 //                    width:UIScreen.main.bounds.width-(2*16))
 //                    .frame(height: 50)
 //                    .background(Color.pink)
+                
+           
             }
+                
             .padding()
         .navigationBarTitle("Login")
+            .alert(isPresented: $showAlert) {
+                return Alert(title: Text("Important message"), message: Text("Wear sunscreen"), dismissButton: .default(Text("Got it!")))
+                
+            }
+          
         }
     }
 }
